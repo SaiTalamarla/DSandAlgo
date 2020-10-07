@@ -19,11 +19,13 @@ public class BubbleSortAlgorithm {
 		System.out.println(Arrays.toString(sortData(data)));
 	}
 
-	/**
+	/**Bubble Sort :
+	 * Finding the maximum Element & Swapping the minimum
+	 * 		element to the Rear.
 	 * @param data
 	 * @return
 	 */
-	public static int[] sortData(int[] data) {
+	private static int[] sortData(int[] data) {
 		int arrLen = data.length;
 		// Moving the highest value element to the Last
 		// using swapping
